@@ -1,0 +1,40 @@
+.helping{
+    position: relative;
+    padding: var(--section-padding-top) 10%;
+}
+
+.helping h2{
+    font-size: 3.8rem;
+}
+
+.helping p{
+    width: 35%;
+    margin-top: 1.5vw;
+    font-size: 1.4rem;
+    line-height: 180%;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    
+    .helping h2{
+        font-size: 3.8rem;
+    }
+    
+    .helping p{
+        width: 60%;
+        margin-top: 3vw;
+        font-size: 1.4rem;
+    }
+      
+}

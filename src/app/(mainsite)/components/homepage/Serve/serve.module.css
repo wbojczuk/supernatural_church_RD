@@ -1,0 +1,89 @@
+.serve{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.serve h2{
+    display: inline-block;
+    position: relative;
+    font-weight: 800;
+    color: #343434;
+    font-size: 5rem;
+}
+
+.serve h2::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: calc(50% - 5px);
+     left: -7vw;
+     width: 6vw;
+     height: 10px;
+     background-color: #343434;
+}
+
+.serve h2::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 5px);
+    right: -7vw;
+    width: 6vw;
+    height: 10px;
+    background-color: #343434;
+}
+
+.serve p{
+    width: 40%;
+    padding: 2.5%;
+    font-size: 1.8rem;
+    line-height: 180%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .serve p{
+        width: 55%;
+        padding: 2.5%;
+        font-size: 1.8rem;
+        line-height: 200%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .serve{
+        gap: 6vw;
+    }
+    .serve p{
+        width: 80%;
+        padding: 2.5%;
+        font-size: 1.8rem;
+        line-height: 200%;
+    }
+
+    .serve h2::after{
+        left: -13vw;
+        width: 12vw;
+   }
+   
+   .serve h2::before{
+       right: -13vw;
+       width: 12vw;
+   }
+}
