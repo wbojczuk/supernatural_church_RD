@@ -7,7 +7,7 @@ return (
  <header className={styles.header}>
 
     <h1>Supernatural Church</h1>
-    <h3>We practice what we preach</h3>
+    <h3>Faith produces the Supernatural</h3>
 
     <Link className='main-link' href='/watch'>Watch Online</Link>
  

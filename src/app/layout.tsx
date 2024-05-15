@@ -19,11 +19,11 @@ import "./(mainsite)/components/styling_sheets/links/mainlink.css"
 const primaryFont = Inter({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], display: "swap", variable: "--primary-font" })
 
 export const metadata: Metadata = {
-  title: 'Supernatural Church | We practice what we preach',
-  description: 'Supernatural Church | We practice what we preach',
+  title: 'Supernatural Church | Faith produces the Supernatural',
+  description: 'Supernatural Church | Faith produces the Supernatural',
 
   openGraph: {
-    title: "Supernatural Church | We practice what we preach",
+    title: "Supernatural Church | Faith produces the Supernatural",
     description: "We believe God has called us to serve.",
     type: "website",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Supernatural Church | We practice what we preach",
+    title: "Supernatural Church | Faith produces the Supernatural",
     description: "We believe God has called us to serve.",
     images: ['https://sncalamo.org/img/logo-placeholder.webp']
   },

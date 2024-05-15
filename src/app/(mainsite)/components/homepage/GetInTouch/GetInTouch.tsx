@@ -16,11 +16,11 @@ return (
             <p>We’d love to hear from you!</p>
         </Link>
 
-        <a href="https://www.youtube.com/@tonycisneros8888" target='_blank' className={styles.option}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="currentColor" d="M11.603 9.833L9.357 8.785C9.161 8.694 9 8.796 9 9.013v1.974c0 .217.161.319.357.228l2.245-1.048c.197-.092.197-.242.001-.334M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4m0 13.5c-4.914 0-5-.443-5-3.9s.086-3.9 5-3.9s5 .443 5 3.9s-.086 3.9-5 3.9"></path></svg>
-            <h4>YouTube</h4>
+        <Link href="/watch" className={styles.option}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1200 1200"><path fill="currentColor" d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0M242.285 329.297h715.356v541.406H242.285zm87.744 87.744v365.918H869.97V417.041zm189.698 63.721l210.719 121.51l-210.719 122.24z"></path></svg>
+            <h4>Video</h4>
             <p>Watch Our Sermons Online</p>
-        </a>
+        </Link>
     </div>
  
     <img src='/img/getintouch.webp' alt='Image of people holding hands' className='bg-img' />
