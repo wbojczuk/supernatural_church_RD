@@ -11,7 +11,7 @@ return (
 
     <Link className='main-link' href='/watch'>Watch Online</Link>
  
-    <img src='/img/header-bg.png' alt='Image of ' className='bg-img' />
+    <img src='/img/header-bg.webp' alt='Image of ' className='bg-img' />
     <div className='gradient-shader'></div>
  </header>
 )};

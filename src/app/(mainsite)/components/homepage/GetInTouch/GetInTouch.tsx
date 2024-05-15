@@ -23,7 +23,7 @@ return (
         </a>
     </div>
  
-    <img src='/img/getintouch.png' alt='Image of people holding hands' className='bg-img' />
+    <img src='/img/getintouch.webp' alt='Image of people holding hands' className='bg-img' />
     <div className='gradient-shader-dark'></div>
  </div>
 )};

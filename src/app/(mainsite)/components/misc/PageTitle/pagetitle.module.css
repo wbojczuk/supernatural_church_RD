@@ -1,0 +1,14 @@
+.pageTitle{
+    padding: calc(var(--section-padding-top) * 2.5) 0 calc(var(--section-padding-top) * 1.5) 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--secondary-text-color);
+}
+
+.pageTitle h1{
+    text-align: center;
+    font-size: 5rem;
+}

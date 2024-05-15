@@ -24,6 +24,7 @@ export default function Navbar() {
   const aboutRef: any = useRef()
   const contactRef: any = useRef()
   const watchRef: any = useRef()
+  const sniperRef: any = useRef()
 
   const hamburgerRef: any = useRef()
   const contentRef: any = useRef()
@@ -50,6 +51,10 @@ export default function Navbar() {
     {
       triggers: ["/", "/home"],
       ref: homeRef
+    },
+    {
+      triggers: ["/sniper"],
+      ref: sniperRef
     }
     
   ]
@@ -167,7 +172,7 @@ export default function Navbar() {
 
       <div className={styles.navContent}>
       <Link href="/" className={styles.logo}>
-      <img src="/img/logo.png" className={styles.logoImg} width={500} height={250} alt="Logo" />
+      <img src="/img/logo.webp" className={styles.logoImg} width={500} height={250} alt="Logo" />
         
       </Link>
 
@@ -197,6 +202,12 @@ export default function Navbar() {
           url="/about"
           ref={aboutRef}
           />
+
+        <NavOption
+          title="SNIPER"
+          url="/sniper"
+          ref={sniperRef}
+          /> 
 
           <NavOption
           title="Watch"

@@ -1,0 +1,61 @@
+.sniperContent{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.logo{
+    width: 18vw;
+    height: 18vw;
+    padding-bottom: 2vw;
+}
+
+.sniperContent p{
+    padding: 2vw 25%;
+    font-size: 1.4rem;
+    line-height: 180%;
+}
+
+.buttonWrapper{
+    padding-top: 2vw;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .logo{
+        width: 25vw;
+        height: 25vw;
+        padding-bottom: 3vw;
+    }
+    
+    .sniperContent p{
+        padding: 2vw 18%;
+        font-size: 1.5rem;
+    }
+    
+    .buttonWrapper{
+        padding-top: 3vw;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .logo{
+        width: 40vw;
+        height: 40vw;
+        padding-bottom: 4vw;
+    }
+    
+    .sniperContent p{
+        padding: 4vw 8%;
+        font-size: 1.6rem;
+    }
+    
+    .buttonWrapper{
+        padding-top: 4vw;
+    }
+}
