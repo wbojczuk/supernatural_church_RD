@@ -20,7 +20,26 @@ const primaryFont = Inter({ subsets: ['latin'], weight: ["100", "200", "300", "4
 
 export const metadata: Metadata = {
   title: 'Supernatural Church | We practice what we preach',
-  description: 'Supernatural Church | We practice what we preach'
+  description: 'Supernatural Church | We practice what we preach',
+
+  openGraph: {
+    title: "Supernatural Church | We practice what we preach",
+    description: "We believe God has called us to serve.",
+    type: "website",
+    images: [
+      {
+        url: 'https://sncalamo.org/img/logo-placeholder.webp',
+        width: 1280,
+        height: 720,
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Supernatural Church | We practice what we preach",
+    description: "We believe God has called us to serve.",
+    images: ['https://sncalamo.org/img/logo-placeholder.webp']
+  },
 }
 
 export default function RootLayout({
