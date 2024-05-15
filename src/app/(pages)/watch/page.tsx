@@ -4,8 +4,8 @@ import WatchIcons from "@/app/(mainsite)/components/watchpage/WatchIcons/WatchIc
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: "Watch",
-	  description: "Watch"
+	  title: "Watch | Supernatural Church | We practice what we preach",
+	  description: "Supernatural Church | We practice what we preach"
 }
 
 export default function WatchPage(){

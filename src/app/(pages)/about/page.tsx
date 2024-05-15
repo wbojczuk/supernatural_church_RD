@@ -4,8 +4,8 @@ import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "About Page",
-    description: ""
+    title: "About Page | Supernatural Church | We practice what we preach",
+    description: "Supernatural Church | We practice what we preach"
 }
 
 export default function AboutPage(){

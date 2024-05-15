@@ -4,8 +4,8 @@ import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Contact Page",
-    description: ""
+    title: "Contact Page | Supernatural Church | We practice what we preach",
+    description: "Supernatural Church | We practice what we preach"
 }
 
 export default function ContactPage(){

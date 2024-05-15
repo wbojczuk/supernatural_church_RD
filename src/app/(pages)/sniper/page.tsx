@@ -3,8 +3,8 @@ import SniperContent from "@/app/(mainsite)/components/sniperpage/SniperContent/
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: "Sniper",
-	  description: "Sniper"
+	  title: "Sniper | Supernatural Church | We practice what we preach",
+	  description: "Supernatural Church | We practice what we preach"
 }
 
 export default function SniperPage(){
